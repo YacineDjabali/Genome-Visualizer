@@ -1,0 +1,30 @@
+* Projet de M1 : Programmation Orientée Objet - Java
+
+Projet réalisé par Yacine DJABALI, Raphaël PARMENTIER et Jean VENCIC.
+
+Projet réalisé dans le cadre de l'UE Programmation Orientée Objet - Java du Master 1 BIBS de Paris-Saclay.
+
+
+* Objectif
+
+Réaliser un visualiseur cartographique d'annotations en Java, de manière similaire à celui trouvable sur le site du NCBI.
+Ci-dessus un exemple avec la séquence U00096.2 :
+
+https://www.ncbi.nlm.nih.gov/nuccore/U00096.2?report=graph&log$=seqview
+
+Le visualiseur utilise en entrée des fichiers au format GFF3.
+Les spécificités de ce format sont disponibles ci-dessous :
+
+https://www.sanger.ac.uk/resources/software/gff/spec.html
+
+* Usage
+
+Télécharger le projet directement par l'interface graphique de GitHub ou en faisant un clone du projet avec la commande suivante :
+
+~git clone https://github.com/RaphaelParmentier/JAVA_2019.git~
+
+Ensuite exécutez diretement le fichier mainApp.java avec la commande :
+
+~java mainApp~
+
+Pour finir, indiquez par le terminal le pathway du fichier gff3 désiré.
